@@ -1,4 +1,4 @@
-FROM node:0.12
+FROM node
 
 # This is needed for node-canvas dependency on cairo. Annoyingly large...
 RUN apt-get update && apt-get install -yy --no-install-recommends \
