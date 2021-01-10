@@ -13,7 +13,7 @@ exports.getAvatar = function(seed, width, height, theme) {
 
     var widthHeight = Math.max(width, height);
     widthHeight = Math.max(widthHeight, 12);
-    var canvas = new Canvas(widthHeight, widthHeight);
+    var canvas = Canvas.createCanvas(widthHeight, widthHeight);
 
     // Avatar random parts.
     var parts = {
