@@ -4,9 +4,9 @@
   "description": "Node server for KevinGaudin's monsterids",
   "main": "./src/server.js",
   "dependencies": {
-    "restify": "~2.8.4",
-    "canvas": "~1.1.6",
-    "seedrandom": "~2.3.11"
+    "restify": ">2.8.4",
+    "canvas": ">1.1.6",
+    "seedrandom": ">2.3.11"
   },
   "devDependencies": {
   },
