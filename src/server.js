@@ -47,7 +47,7 @@ var server = restify.createServer({
 
 });
 
-server.use(restify.plugins.queryParser());
+server.use(restify.plugins.queryParser({ mapParams: true }));
 server.get('/monster/:name', respond);
 
 server.listen(8080, function() {
